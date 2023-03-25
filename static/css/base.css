@@ -28,25 +28,21 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+    background-color: rgb(14, 16, 16);
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
 }
 
+.shop-now-button:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
 .btn-black {
     background: black;
     color: white;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
 
 .text-black {
     color: #000 !important;
@@ -55,7 +51,6 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
-
 
 /* -------------------------------- Media Queries */
 
