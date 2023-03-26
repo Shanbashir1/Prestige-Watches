@@ -1,27 +1,18 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
-
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-7 my-auto">
-                <h1 class="text-white">
-                    Prestige Watches offers a wide range of models ranging from professional to classic watches to suit any wrist.
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 text-white">Shop Now</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
+<main id="intro-section">
+    <header>
+        <a href="{% url 'home' %}" aria-label="Home Page"><span class="logo interactive-color">Prestige|Watches</span></a>
+     </header>
+<div class="overlay"></div>
+   <div class="text-box">
+      <h3 class="text-white"> The new collections are here</h3>
+      <p class="text-white">Explore the collection of prestigious, high-precision timepieces.</p>
+      <a href="{% url 'home' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 text-white aria-label="Go to the home page">Shop Now <i
+         class="fas fa-arrow-right interactive-color"></i></a>
+   </div>
+</main>
+<!-- END OF LANDING PAGE-->
 {% endblock %}
