@@ -151,6 +151,21 @@ body {
     width: 90%;
 }
 
+/* Marquee for free delivery text */
+.wrapper{
+    height: 40px;
+    text-align: right;
+}
+
+/* Main Nav.html nav bar */
+.nav-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #7F8C93;
+    -moz-text-decoration-color: #7F8C93;
+    text-decoration-thickness: 5px;
+    }
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
